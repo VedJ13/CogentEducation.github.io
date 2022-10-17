@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+header h5 {
+    text-align: center;
+    color: white;
+} */
+
+header{
+    background-color: black;
+}
+
+header .banner{
+    background-image: url(/practiceproject/Practice1.html/Website.html/img/logo.gif);
+    height: 20vw;
+    min-height: 10px;
+     background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 20%;
+    background-attachment: fixed;
+}
+
+nav{
+    background-color: #333;
+    overflow: hidden;
+}
+nav .dropdown{
+    background-color: #333;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0;
+}
+
+.dropdown{
+    float: left;
+}
+
+.btn{
+    border: none;
+    background-color: inherit;
+    color: white;
+    position: relative;
+    outline: none;
+    padding: 15px;
+    width: 135px;
+    height: 55px;
+    margin: 0;
+}
+
+.btn:hover{
+    background-color: rgb(77, 146, 158);
+    color: coral;
+    margin: 0;
+}
+
+.dbtn {
+    display: none;
+    position: absolute;
+    float: left;
+    margin: 0;
+}
+
+.dbtn-1{
+    display: none;
+    position: absolute;
+    margin: 0;
+    float: left;
+}
+
+.dbtn-2{
+    display: none;
+    position: absolute;
+    float: left;
+    margin: 0;
+}
+
+.dbtn-3{
+    display: none;
+    position: absolute;
+    float: left;
+    margin: 0;
+}
+
+.dbtn-4{
+    display: none;
+    position: absolute;
+    float: left;
+    margin: 0;
+}
+
+.dbtn a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: gray;
+    font-size: 15px;
+    width: 135px;
+    margin: 0;
+}
+
+.dbtn-1 a{
+    text-decoration: none;
+    display: block;
+    background-color: gray;
+    width: 135px;
+    font-size: 15px;
+    margin: 0;
+}
+
+.dbtn-2 a{
+    text-decoration: none;
+    display: block;
+    background-color: gray;
+    width: 135px;
+    font-size: 15px;
+    margin: 0;
+}
+
+.dbtn-3 a{
+    text-decoration: none;
+    display: block;
+    background-color: gray;
+    width: 135px;
+    font-size: 15px;
+    margin: 0;
+}
+
+.dbtn-4 a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: gray;
+    font-size: 15px;
+    width: 135px;
+    margin: 0;
+}
+
+.dropdown:hover .dbtn{
+    display: block;
+    width: 30px;
+    margin: 0;
+    z-index: 1;
+}
+
+.dropdown:hover .dbtn-1{
+    display: block;
+    width: 150px;
+    margin: 0;
+    z-index: 1;
+}
+
+.dropdown:hover .dbtn-2{
+    display: block;
+    width: 142px;
+    margin: 0;
+    z-index: 1;
+}
+
+.dropdown:hover .dbtn-3{
+    display: block;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.dropdown:hover .dbtn-4{
+    display: block;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.dropdown a:hover{
+    background-color: lightgray;
+    color: black;
+    margin: 0;
+}
+
+.login{
+    background-color: inherit;
+    color: white;
+    border: none;
+    float: right;
+    /* padding-top: 15px;
+    padding-right: 15px; */
+    padding: 15px;
+}
+
+.login:hover{
+    background-color: rgb(77, 146, 158);
+    color: coral;
+    height: 55px;
+}
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    margin: 0;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 100vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+    height: 70px;
+}
+
+footer a {
+    text-decoration: none;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 23px;
+    margin-top: 4px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+footer button{
+    background-color: transparent;
+    border: none;
+}
+footer button:hover{
+    background-color: rgb(77, 146, 158);
+}
